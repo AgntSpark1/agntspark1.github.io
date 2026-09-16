@@ -27,7 +27,7 @@ TEMPLATE = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} — AgntSpark</title>
 <meta name="description" content="{title} for AgntSpark, operated by AgntSpark LLC.">
-<link rel="canonical" href="https://agntspark.com/{slug}">
+<link rel="canonical" href="https://agntspark.com/{slug}/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111'/%3E%3Cpath d='M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z' fill='%23FF5A1F'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,7 +82,7 @@ footer a:hover {{ color:var(--ink); }}
 <footer>
   <div class="wrap">
     <span>© 2026 AgntSpark LLC · 30 N Gould St Ste N, Sheridan, WY 82801, USA · admin@agntspark.com</span>
-    <span><a href="/">Home</a><a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/acceptable-use">Acceptable use</a></span>
+    <span><a href="/">Home</a><a href="/terms/">Terms</a><a href="/privacy/">Privacy</a><a href="/acceptable-use/">Acceptable use</a></span>
   </div>
 </footer>
 <!--/email_off-->
@@ -106,7 +106,7 @@ def main() -> None:
         body = markdown.markdown(text, extensions=["tables", "sane_lists"])
         body = link_emails(body)
         nav = "".join(
-            f'<a href="/{s}"{" aria-current=\"page\"" if s == slug else ""}>{html.escape(t)}</a>'
+            f'<a href="/{s}/"{" aria-current=\"page\"" if s == slug else ""}>{html.escape(t)}</a>'
             for s, (_, t) in PAGES.items()
         )
         out = ROOT / slug / "index.html"

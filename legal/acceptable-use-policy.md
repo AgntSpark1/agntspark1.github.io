@@ -3,7 +3,7 @@
 **Effective date:** September 17, 2026
 
 This policy lists what you, your Agents, and anyone using your Agents may
-not do on AgntSpark. It is part of the [Terms of Service](/terms). If you're
+not do on AgntSpark. It is part of the [Terms of Service](/terms/). If you're
 unsure whether something is allowed, ask us at admin@agntspark.com first.
 
 ## You may not use the Service to:

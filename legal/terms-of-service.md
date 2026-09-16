@@ -64,7 +64,7 @@ from your Agents.
 
 ## 4. Acceptable use
 
-You must follow the [Acceptable Use Policy](/acceptable-use), which is part of
+You must follow the [Acceptable Use Policy](/acceptable-use/), which is part of
 these Terms.
 
 ## 5. Plans, fees and payment
@@ -106,7 +106,7 @@ these Terms.
 
 ## 7. Data protection and security
 
-Our [Privacy Policy](/privacy) explains how we handle personal data. We use
+Our [Privacy Policy](/privacy/) explains how we handle personal data. We use
 reasonable technical and organizational measures to protect the Service, but
 no system is completely secure. Agents of different customers run on shared
 infrastructure.

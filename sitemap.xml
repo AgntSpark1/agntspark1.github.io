@@ -6,17 +6,17 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://agntspark.com/terms</loc>
+    <loc>https://agntspark.com/terms/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://agntspark.com/privacy</loc>
+    <loc>https://agntspark.com/privacy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://agntspark.com/acceptable-use</loc>
+    <loc>https://agntspark.com/acceptable-use/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
