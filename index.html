@@ -13,10 +13,18 @@
 <meta property="og:title" content="AgntSpark — Put an AI agent on the internet. Keep it private.">
 <meta property="og:description" content="Deploy a template or your own container image. Every agent gets its own HTTPS endpoint, private by default, and you bring your own model provider key.">
 <meta property="og:url" content="https://agntspark.com/">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://agntspark.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AgntSpark — Put an AI agent on the internet. Keep it private.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://agntspark.com/og-image.png">
 <meta name="twitter:title" content="AgntSpark — Put an AI agent on the internet. Keep it private.">
 <meta name="twitter:description" content="Deploy a template or your own container image. Every agent gets its own HTTPS endpoint, private by default, and you bring your own model provider key.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111'/%3E%3Cpath d='M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z' fill='%23FF5A1F'/%3E%3C/svg%3E">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -57,7 +65,8 @@
         "worksFor": {
           "@id": "https://agntspark.com/#organization"
         }
-      }
+      },
+      "logo": "https://agntspark.com/icon-512.png"
     },
     {
       "@type": "SoftwareApplication",
@@ -157,7 +166,7 @@ code { font-family: var(--mono); font-size: 0.9em; background: var(--bg-2); bord
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 17px; letter-spacing: -0.01em; text-decoration: none; }
 .brand-mark { width: 26px; height: 26px; }
 .nav-links { display: flex; gap: 24px; list-style: none; margin-left: 8px; }
-.nav-links a { text-decoration: none; color: var(--muted); font-size: 14.5px; transition: color .15s; }
+.nav-links a { text-decoration: none; color: var(--muted); font-size: 14.5px; transition: color .15s; white-space: nowrap; }
 .nav-links a:hover { color: var(--ink); }
 .nav-actions { margin-left: auto; display: flex; gap: 10px; align-items: center; }
 
@@ -333,6 +342,9 @@ footer a:hover { color: var(--ink); }
 .legal { grid-column: 1 / -1; border-top: 1px solid var(--rule); padding-top: 22px; margin-top: 8px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 13px; }
 
 /* ── Responsive ── */
+@media (max-width: 900px) {
+  .nav-links { display: none; }
+}
 @media (max-width: 1000px) {
   .hero-grid, .two, .company { grid-template-columns: 1fr; gap: 40px; }
   .path { grid-template-columns: 1fr; }
@@ -369,7 +381,7 @@ footer a:hover { color: var(--ink); }
 <header class="nav">
   <div class="wrap">
     <a class="brand" href="/" aria-label="AgntSpark home">
-      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z" fill="#FF5A1F"/></svg>
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5.5 27.5 L16 5 L26.5 27.5" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 13.8 Q16.7 19.3 22.2 20 Q16.7 20.7 16 26.2 Q15.3 20.7 9.8 20 Q15.3 19.3 16 13.8Z" fill="#FF5A1F"/></svg>
       AgntSpark
     </a>
     <ul class="nav-links">
@@ -768,7 +780,7 @@ footer a:hover { color: var(--ink); }
   <div class="wrap">
     <div>
       <a class="brand" href="/">
-        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z" fill="#FF5A1F"/></svg>
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5.5 27.5 L16 5 L26.5 27.5" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 13.8 Q16.7 19.3 22.2 20 Q16.7 20.7 16 26.2 Q15.3 20.7 9.8 20 Q15.3 19.3 16 13.8Z" fill="#FF5A1F"/></svg>
         AgntSpark
       </a>
       <p style="margin-top:12px;max-width:26em">Hosting for AI agents — each with its own HTTPS endpoint, private by default.</p>
