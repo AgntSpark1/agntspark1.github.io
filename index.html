@@ -47,7 +47,17 @@
         "email": "admin@agntspark.com",
         "url": "https://agntspark.com/#company"
       },
-      "sameAs": ["https://github.com/AgntSpark1"]
+      "sameAs": [
+        "https://github.com/AgntSpark1"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Xinning Wu",
+        "jobTitle": "Founder",
+        "worksFor": {
+          "@id": "https://agntspark.com/#organization"
+        }
+      }
     },
     {
       "@type": "SoftwareApplication",
@@ -55,11 +65,23 @@
       "applicationCategory": "DeveloperApplication",
       "operatingSystem": "Web",
       "url": "https://agntspark.com/",
-      "publisher": { "@id": "https://agntspark.com/#organization" },
+      "publisher": {
+        "@id": "https://agntspark.com/#organization"
+      },
       "description": "Hosting for AI agents: deploy a template or your own container image and it runs in managed containers with its own HTTPS endpoint, private by default, with per-agent access keys, rate limits, replicas and metered usage. REST API, Python SDK and CLI.",
       "offers": [
-        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD" },
-        { "@type": "Offer", "name": "Pro", "price": "29", "priceCurrency": "USD" }
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro",
+          "price": "29",
+          "priceCurrency": "USD"
+        }
       ]
     }
   ]
@@ -677,11 +699,12 @@ footer a:hover { color: var(--ink); }
     <div>
       <span class="kicker">Company</span>
       <h2>Built and run by AgntSpark LLC.</h2>
-      <p class="sub">We're a small, founder-led company registered in Sheridan, Wyoming. We started AgntSpark in 2026 because putting an agent in front of users still means running servers, TLS, routing, auth and scaling that have nothing to do with the agent itself. We run that part so developers and small teams can ship the agent.</p>
+      <p class="sub">AgntSpark was founded in 2026 by Xinning Wu and is registered in Sheridan, Wyoming. We started it because putting an agent in front of users still means running servers, TLS, routing, auth and scaling that have nothing to do with the agent itself. We run that part so developers and small teams can ship the agent.</p>
       <p class="sub" style="margin-top:16px">The platform is live in an invite-only alpha: agents deploy and serve traffic today, and we're onboarding a small number of teams at a time.</p>
     </div>
     <dl class="ledger">
       <div><dt>Legal name</dt><dd>AgntSpark LLC</dd></div>
+      <div><dt>Founder</dt><dd>Xinning Wu</dd></div>
       <div><dt>Entity</dt><dd>Wyoming limited liability company</dd></div>
       <div><dt>Founded</dt><dd>2026</dd></div>
       <div><dt>Address</dt><dd>30 N Gould St Ste N<br>Sheridan, WY 82801, USA</dd></div>
