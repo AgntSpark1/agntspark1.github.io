@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — AgntSpark</title>
+<meta name="description" content="Privacy Policy for AgntSpark, operated by AgntSpark LLC.">
+<link rel="canonical" href="https://agntspark.com/privacy">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111'/%3E%3Cpath d='M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z' fill='%23FF5A1F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#FAF9F6; --bg-2:#F2F0EA; --card:#FFFFFF; --ink:#141412; --ink-2:#3D3C38; --muted:#6B6A64; --rule:#E4E1D9; --spark:#FF5A1F; --spark-ink:#C73D0A;
+  --mono:"Geist Mono", ui-monospace, Menlo, monospace; --sans:"Geist", ui-sans-serif, -apple-system, "Segoe UI", sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0E0E0C; --bg-2:#151513; --card:#171715; --ink:#EEECE6; --ink-2:#C9C6BE; --muted:#8F8C84; --rule:#262522; --spark:#FF6B35; --spark-ink:#FF8A5C; } }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:var(--sans); background:var(--bg); color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+.wrap { max-width:1140px; margin:0 auto; padding:0 24px; }
+.nav { border-bottom:1px solid var(--rule); }
+.nav .wrap { display:flex; align-items:center; height:64px; gap:24px; }
+.brand { display:flex; align-items:center; gap:10px; font-weight:600; font-size:17px; text-decoration:none; color:var(--ink); }
+.brand svg { width:26px; height:26px; }
+.nav nav { margin-left:auto; display:flex; gap:20px; font-size:14.5px; }
+.nav nav a { color:var(--muted); text-decoration:none; }
+.nav nav a:hover, .nav nav a[aria-current] { color:var(--ink); }
+article { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+.kicker { font:500 12.5px/1 var(--mono); color:var(--spark-ink); text-transform:uppercase; letter-spacing:.08em; }
+article h1 { font-size:clamp(34px,4.5vw,48px); line-height:1.08; letter-spacing:-0.03em; font-weight:600; margin:14px 0 10px; }
+article h2 { font-size:22px; letter-spacing:-0.015em; font-weight:600; margin:44px 0 12px; padding-top:20px; border-top:1px solid var(--rule); }
+article p, article li { color:var(--ink-2); font-size:16px; }
+article p { margin:12px 0; }
+article ul { margin:10px 0 10px 22px; }
+article li { margin:6px 0; }
+article strong { color:var(--ink); font-weight:600; }
+article a { color:var(--spark-ink); text-underline-offset:3px; }
+article table { width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; display:block; overflow-x:auto; }
+article th, article td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--rule); vertical-align:top; color:var(--ink-2); }
+article th { font:500 12px/1.4 var(--mono); text-transform:uppercase; letter-spacing:.05em; color:var(--muted); background:var(--bg-2); }
+footer { border-top:1px solid var(--rule); padding:28px 0 36px; font-size:13.5px; color:var(--muted); }
+footer .wrap { display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+footer a { color:inherit; text-decoration:none; margin-left:16px; }
+footer a:hover { color:var(--ink); }
+</style>
+</head>
+<body>
+<!--email_off-->
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z" fill="#FF5A1F"/></svg>AgntSpark</a>
+    <nav><a href="/terms">Terms of Service</a><a href="/privacy" aria-current="page">Privacy Policy</a><a href="/acceptable-use">Acceptable Use Policy</a></nav>
+  </div>
+</header>
+<main>
+<article>
+<span class="kicker">Legal</span>
+<h1>Privacy Policy</h1>
+<p><strong>Effective date:</strong> September 17, 2026</p>
+<p>This policy explains how AgntSpark LLC ("AgntSpark", "we") handles personal
+data when you use the AgntSpark website, console, API, SDK, command-line tool
+and hosted agents (the "Service").</p>
+<p>It covers two roles:</p>
+<ul>
+<li><strong>Your account data</strong>, which we decide how to use. We are the controller.</li>
+<li><strong>Data passing through your Agents</strong>, which you decide how to use. We
+  process it on your behalf.</li>
+</ul>
+<h2>1. What we collect</h2>
+<p><strong>Account data</strong></p>
+<ul>
+<li>Name and email address.</li>
+<li>Your password, stored only as a bcrypt hash.</li>
+<li>Your role, plan, the invite code you used, and when the account was
+  created.</li>
+</ul>
+<p><strong>Billing data</strong></p>
+<ul>
+<li>If you subscribe to a paid plan, Stripe collects your payment details. We
+  receive and store only your Stripe customer ID, subscription ID and
+  subscription status. We never see or store full card numbers.</li>
+</ul>
+<p><strong>Keys and configuration</strong></p>
+<ul>
+<li>API keys and agent access keys, stored only as SHA-256 hashes plus a short
+  prefix so you can recognize them.</li>
+<li>Agent configuration: names, models, prompts, container images, resource
+  settings and environment variables. Values you mark secret, including
+  model provider keys, are encrypted at rest and decrypted only when an
+  Agent's container starts.</li>
+</ul>
+<p><strong>Usage and technical data</strong></p>
+<ul>
+<li>Per agent, per hour: running replicas, reserved CPU and memory, and the
+  number of requests routed to the agent. We use these for quotas and
+  billing.</li>
+<li>To rate limit requests to Agents, we use the caller's IP address in memory
+  for up to one minute. It isn't written to our database.</li>
+<li>Our servers keep operational logs, such as requests to the API, which can
+  include IP addresses. They rotate automatically and are overwritten as new
+  entries arrive.</li>
+</ul>
+<p><strong>Data passing through your Agents</strong></p>
+<ul>
+<li>Requests to your Agents and their responses go from our edge proxy
+  directly to your Agent's container. We don't store request or response
+  bodies.</li>
+<li>Your Agents' console output (logs) is kept on the host while the Agent's
+  containers exist, and shown to you in the console.</li>
+<li>What your Agent does with data, and which third parties it sends data to,
+  such as your chosen model provider, is up to you.</li>
+</ul>
+<p><strong>Emails you send us</strong></p>
+<ul>
+<li>Messages you send to our addresses, and the contact details in them.</li>
+</ul>
+<p><strong>Cookies and similar technologies</strong></p>
+<ul>
+<li>The console keeps your sign-in session token in your browser's local
+  storage. We don't use advertising or analytics cookies.</li>
+</ul>
+<h2>2. How we use it</h2>
+<ul>
+<li>To provide the Service: authenticate you, run and route your Agents, and
+  enforce plan limits and rate limits.</li>
+<li>To bill paid plans.</li>
+<li>To secure the Service, prevent abuse and investigate misuse.</li>
+<li>To contact you about your account, security, and changes to the Service or
+  our policies.</li>
+<li>To comply with legal obligations.</li>
+</ul>
+<p>We don't sell personal data, and we don't use Your Content to train models.</p>
+<p>If you are in the European Economic Area or the United Kingdom, we rely on
+these legal bases: performance of our contract with you (providing the
+Service and billing), our legitimate interests (securing the Service,
+preventing abuse and improving it), compliance with legal obligations, and
+your consent where the law requires it.</p>
+<h2>3. Who we share it with</h2>
+<p>We share personal data only with service providers that help us run the
+Service, under terms that limit their use of it:</p>
+<table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>Purpose</th>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google Cloud</td>
+<td>Hosting the platform (servers and disks)</td>
+<td>All data stored by the Service</td>
+</tr>
+<tr>
+<td>Cloudflare</td>
+<td>DNS, hosting of agntspark.com, and routing of email sent to our addresses</td>
+<td>Website request metadata; emails you send us</td>
+</tr>
+<tr>
+<td>Stripe</td>
+<td>Payment processing</td>
+<td>Billing data</td>
+</tr>
+<tr>
+<td>Certificate authorities (such as Let's Encrypt)</td>
+<td>TLS certificates</td>
+<td>Hostnames of agents; certificates are published in public certificate transparency logs</td>
+</tr>
+<tr>
+<td>Google Fonts</td>
+<td>Fonts on agntspark.com</td>
+<td>Your IP address and browser details when the page loads fonts</td>
+</tr>
+</tbody>
+</table>
+<p>We may also disclose data if required by law, to protect the rights, safety
+or property of AgntSpark, our users or others, or in connection with a
+merger, acquisition or sale of assets.</p>
+<h2>4. Where it's stored</h2>
+<p>The platform runs on Google Cloud servers in Taiwan (region asia-east1). Our
+service providers may process data in other countries, including the United
+States. Where the law requires a mechanism for international transfers, we
+take the steps it requires, such as relying on the European Commission's
+Standard Contractual Clauses.</p>
+<h2>5. How long we keep it</h2>
+<ul>
+<li>Account, configuration and key data: while your account exists, then
+  deleted within 30 days of account deletion.</li>
+<li>Hourly usage records and billing data: as long as needed for billing, tax
+  and accounting obligations, generally up to 7 years for paid accounts.</li>
+<li>Database backups: 14 days, after which they are deleted automatically.</li>
+<li>Rate-limit data: about one minute, in memory only.</li>
+<li>Operational logs: overwritten as they rotate.</li>
+</ul>
+<h2>6. Security</h2>
+<p>Passwords, API keys and access keys are hashed; secret configuration values
+are encrypted at rest; traffic is encrypted in transit with TLS; Agents run
+in isolated containers with restricted privileges and network access; and
+access to production systems is limited. No method of transmission or
+storage is completely secure.</p>
+<h2>7. Your rights</h2>
+<p>Depending on where you live, you may have the right to access, correct,
+delete or export your personal data, to object to or restrict certain
+processing, and to complain to a data protection authority. To exercise
+these rights, email <a href="mailto:admin@agntspark.com">admin@agntspark.com</a>. We will respond within the time the
+law requires.</p>
+<p>If your Agents process personal data of other people, requests from those
+people should go to you; we will help as reasonably required.</p>
+<h2>8. Children</h2>
+<p>The Service is not for children. We don't knowingly collect personal data
+from anyone under 16.</p>
+<h2>9. Changes</h2>
+<p>We will post changes to this policy here and, for material changes, notify
+you by email or in the console before they take effect.</p>
+<h2>10. Contact</h2>
+<p>AgntSpark LLC
+30 N Gould St Ste N, Sheridan, WY 82801, USA
+<a href="mailto:admin@agntspark.com">admin@agntspark.com</a></p>
+</article>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 AgntSpark LLC · 30 N Gould St Ste N, Sheridan, WY 82801, USA · admin@agntspark.com</span>
+    <span><a href="/">Home</a><a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/acceptable-use">Acceptable use</a></span>
+  </div>
+</footer>
+<!--/email_off-->
+</body>
+</html>
