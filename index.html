@@ -5,6 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgntSpark — Host AI agents, each with its own HTTPS endpoint</title>
     <meta name="description" content="AgntSpark hosts AI agents: deploy a template or your own container image and each agent gets its own HTTPS URL, private by default, with your own model provider key. Invite-only alpha.">
+    <link rel="canonical" href="https://agntspark.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AgntSpark">
+    <meta property="og:title" content="AgntSpark — Host AI agents, each with its own HTTPS endpoint">
+    <meta property="og:description" content="Deploy an official template or your own container image. Every agent gets its own HTTPS URL, private by default, and you bring your own model provider key.">
+    <meta property="og:url" content="https://agntspark.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="AgntSpark — Host AI agents, each with its own HTTPS endpoint">
+    <meta name="twitter:description" content="Deploy an official template or your own container image. Every agent gets its own HTTPS URL, private by default, and you bring your own model provider key.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://agntspark.com/#organization",
+          "name": "AgntSpark LLC",
+          "legalName": "AgntSpark LLC",
+          "url": "https://agntspark.com/",
+          "email": "support@agntspark.com",
+          "foundingDate": "2026",
+          "description": "AgntSpark LLC operates AgntSpark, a hosting platform for AI agents. Each agent runs in its own containers and answers at its own HTTPS endpoint.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "30 N Gould St Ste N",
+            "addressLocality": "Sheridan",
+            "addressRegion": "WY",
+            "postalCode": "82801",
+            "addressCountry": "US"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "email": "support@agntspark.com",
+            "url": "https://agntspark.com/#contact"
+          },
+          "sameAs": ["https://github.com/AgntSpark1"]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "AgntSpark",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "Web",
+          "url": "https://agntspark.com/",
+          "publisher": { "@id": "https://agntspark.com/#organization" },
+          "description": "Deploy an AI agent from a template or your own container image and it runs in managed containers with its own HTTPS endpoint, private by default, with per-agent access keys, rate limits, replicas and metered usage. REST API, Python SDK and CLI included.",
+          "offers": [
+            { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD" },
+            { "@type": "Offer", "name": "Pro", "price": "29", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "29", "priceCurrency": "USD", "billingDuration": 1, "billingIncrement": 1, "unitCode": "MON" } }
+          ]
+        }
+      ]
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -332,6 +386,7 @@
             <li><a href="#features">Features</a></li>
             <li><a href="#architecture">How it works</a></li>
             <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="https://agntspark1.github.io/agntspark-docs/">Docs</a></li>
             <li><a href="https://github.com/AgntSpark1">GitHub</a></li>
         </ul>
@@ -490,6 +545,59 @@
                     <li>Tell us what you need</li>
                 </ul>
                 <a href="mailto:support@agntspark.com?subject=Custom plan" class="btn-secondary">Get in touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── About / Contact ─── -->
+    <section class="features" id="about">
+        <div class="section-label">About</div>
+        <h2 class="section-title">Who builds this</h2>
+        <p class="section-sub">AgntSpark is built and operated by AgntSpark LLC, a limited liability company registered in Sheridan, Wyoming, USA, founded in 2026.</p>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🏢</div>
+                <h3>The company</h3>
+                <p><b>AgntSpark LLC</b><br>
+                30 N Gould St Ste N<br>
+                Sheridan, WY 82801, USA<br>
+                Industry: professional, scientific and technical services (NAICS 541511)</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>What we do</h3>
+                <p>We run the servers, TLS, routing, access control and scaling so a developer can put an AI agent on the internet in minutes and keep it there. Our customers are developers and small teams shipping agents into products they support.</p>
+            </div>
+            <div class="feature-card" id="contact">
+                <div class="feature-icon">✉️</div>
+                <h3>Contact</h3>
+                <p>Support, sales and press: <a href="mailto:support@agntspark.com">support@agntspark.com</a><br>
+                We answer from Sheridan, Wyoming, on US business days.</p>
+            </div>
+        </div>
+        <p class="section-sub" style="margin-top:3rem">The platform is developed in the open. Every part of what runs your agents is public:</p>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🧱</div>
+                <h3>The platform, in public</h3>
+                <p>
+                    <a href="https://github.com/AgntSpark1/agntspark-gateway">agntspark-gateway</a> — API, control plane, quotas and billing<br>
+                    <a href="https://github.com/AgntSpark1/agntspark-core">agntspark-core</a> — the agent runtime your containers serve<br>
+                    <a href="https://github.com/AgntSpark1/agntspark-sdk">agntspark-sdk</a> — Python SDK and CLI<br>
+                    <a href="https://github.com/AgntSpark1/agntspark-console">agntspark-console</a> — the web console<br>
+                    <a href="https://github.com/AgntSpark1/agntspark-templates">agntspark-templates</a> — official agent templates<br>
+                    <a href="https://github.com/AgntSpark1/agntspark-docs">agntspark-docs</a> — the documentation you can read today
+                </p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🧭</div>
+                <h3>Where we are</h3>
+                <p>The platform is live and in an invite-only alpha: accounts are created with an invite code, agents deploy and serve traffic today, and billing for the Pro plan is being switched on. We'd rather say that plainly than pretend to be bigger.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>See it for yourself</h3>
+                <p>The <a href="https://agntspark1.github.io/agntspark-docs/">documentation</a> covers the quick start, the runtime contract every agent serves, the REST API, plans and the architecture — written against what the platform actually does. The console and API are live at <a href="https://agntapi.agntspark.com">agntapi.agntspark.com</a>; signing up needs an invite code.</p>
             </div>
         </div>
     </section>
