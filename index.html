@@ -338,6 +338,10 @@ footer a:hover { color: var(--ink); }
 </style>
 </head>
 <body>
+<!-- Cloudflare Email Obfuscation would turn every address below into an
+     encoded link that only decodes with JavaScript, hiding the company's
+     contact address from reviewers and crawlers. -->
+<!--email_off-->
 
 <!-- ─── Nav ─── -->
 <header class="nav">
@@ -779,6 +783,7 @@ footer a:hover { color: var(--ink); }
   </div>
 </footer>
 
+<!--/email_off-->
 <script>
 (function () {
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
