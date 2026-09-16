@@ -18,6 +18,7 @@ there, never in the generated files.
 | `agntspark-icon.svg` / `png/agntspark-icon-*.png` | App icon: rounded dark tile (favicons, docs, slides) |
 | `agntspark-icon-square.svg` / `png/agntspark-icon-square-*.png` | Full-bleed square for avatars that apply their own mask (LinkedIn, X, GitHub, Google) |
 | `agntspark-social.svg` / `png/agntspark-social-1200x630.png` | Link preview image (Open Graph / Twitter) |
+| `agntspark-header-1500x500.svg` / `png/agntspark-header-1500x500.png` | Profile header for X and LinkedIn; content sits right, clear of the avatar |
 
 The site root also carries `favicon.ico` (16/32/48), `favicon.svg`,
 `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `og-image.png` and

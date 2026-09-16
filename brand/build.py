@@ -144,6 +144,25 @@ def build_social(bold: TTFont, regular: TTFont) -> None:
     (HERE / "agntspark-social.svg").write_text(svg(w, h, "".join(parts)))
 
 
+def build_x_header(bold: TTFont, regular: TTFont) -> None:
+    """1500x500 profile header (X/Twitter, LinkedIn cover). The avatar covers
+    the bottom-left, so the content sits on the right."""
+    w, h = 1500, 500
+    parts = [f'<rect width="{w}" height="{h}" fill="{INK}"/>']
+    for gx in range(0, w + 1, 50):
+        parts.append(f'<path d="M{gx} 0V{h}" stroke="#1D1D1B" stroke-width="1"/>')
+    for gy in range(0, h + 1, 50):
+        parts.append(f'<path d="M0 {gy}H{w}" stroke="#1D1D1B" stroke-width="1"/>')
+    right = w - 110
+    d1, a1 = text_path(bold, "Put an AI agent on the internet.", 58, 0, 0, -0.035)
+    d2, a2 = text_path(bold, "Keep it private.", 58, 0, 0, -0.035)
+    d3, a3 = text_path(regular, "Hosting for AI agents  ·  agntspark.com", 26, 0, 0, -0.01)
+    for d, adv, y, color in ((d1, a1, 222, PAPER), (d2, a2, 296, SPARK), (d3, a3, 368, "#8F8C84")):
+        parts.append(f'<g transform="translate({right - adv:.1f} {y})"><path d="{d}" fill="{color}"/></g>')
+    parts.append(f'<g transform="translate({right - 64} 72) scale(2)">{mark_group(PAPER)}</g>')
+    (HERE / "agntspark-header-1500x500.svg").write_text(svg(w, h, "".join(parts)))
+
+
 def rsvg(src: pathlib.Path, dst: pathlib.Path, width: int, height: int | None = None) -> None:
     args = ["rsvg-convert", "-w", str(width)]
     if height:
@@ -164,6 +183,7 @@ def build_pngs() -> None:
         for width in (600, 1200, 2400):
             rsvg(HERE / f"agntspark-{variant}.svg", PNG / f"agntspark-{variant}-{width}w.png", width)
     rsvg(HERE / "agntspark-social.svg", PNG / "agntspark-social-1200x630.png", 1200, 630)
+    rsvg(HERE / "agntspark-header-1500x500.svg", PNG / "agntspark-header-1500x500.png", 1500, 500)
 
 
 def build_site_icons() -> None:
@@ -201,6 +221,7 @@ def main() -> None:
     build_marks()
     build_logos(bold)
     build_social(bold, regular)
+    build_x_header(bold, regular)
     build_pngs()
     build_site_icons()
     print("brand files written to", HERE.relative_to(SITE), "and site root")
