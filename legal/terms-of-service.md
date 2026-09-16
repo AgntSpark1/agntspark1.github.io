@@ -70,7 +70,7 @@ these Terms.
 ## 5. Plans, fees and payment
 
 - **Plans.** The free plan and paid plans have the limits described in our
-  [plans documentation](https://agntspark1.github.io/agntspark-docs/reference/plans-and-usage/).
+  [plans documentation](https://docs.agntspark.com/reference/plans-and-usage/).
   We may change the free plan's limits at any time.
 - **Fees.** Paid plans are billed in advance, monthly, in US dollars, at the
   price shown when you subscribe (Pro is currently $29 per month), plus
