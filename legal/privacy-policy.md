@@ -92,10 +92,10 @@ Service, under terms that limit their use of it:
 | Provider | Purpose | Data |
 |---|---|---|
 | Google Cloud | Hosting the platform (servers and disks) | All data stored by the Service |
-| Cloudflare | DNS, hosting of agntspark.com, and routing of email sent to our addresses | Website request metadata; emails you send us |
+| Cloudflare | DNS, hosting of agntsparkllc.com, and routing of email sent to our addresses | Website request metadata; emails you send us |
 | Stripe | Payment processing | Billing data |
 | Certificate authorities (such as Let's Encrypt) | TLS certificates | Hostnames of agents; certificates are published in public certificate transparency logs |
-| Google Fonts | Fonts on agntspark.com | Your IP address and browser details when the page loads fonts |
+| Google Fonts | Fonts on agntsparkllc.com | Your IP address and browser details when the page loads fonts |
 
 We may also disclose data if required by law, to protect the rights, safety
 or property of AgntSpark, our users or others, or in connection with a
@@ -132,7 +132,7 @@ storage is completely secure.
 Depending on where you live, you may have the right to access, correct,
 delete or export your personal data, to object to or restrict certain
 processing, and to complain to a data protection authority. To exercise
-these rights, email admin@agntspark.com. We will respond within the time the
+these rights, email info@agntsparkllc.com. We will respond within the time the
 law requires.
 
 If your Agents process personal data of other people, requests from those
@@ -152,4 +152,4 @@ you by email or in the console before they take effect.
 
 AgntSpark LLC
 30 N Gould St Ste N, Sheridan, WY 82801, USA
-admin@agntspark.com
+info@agntsparkllc.com

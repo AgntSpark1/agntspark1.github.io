@@ -3,7 +3,7 @@
 **Effective date:** September 17, 2026
 
 These Terms of Service ("Terms") govern your use of the AgntSpark platform,
-including the website at agntspark.com, the console and API at
+including the website at agntsparkllc.com, the console and API at
 agntapi.agntspark.com, the SDK and command-line tool, and agents hosted at
 \*.run.agntspark.com (together, the "Service"). The Service is provided by
 AgntSpark LLC, a Wyoming limited liability company ("AgntSpark", "we", "us").
@@ -29,7 +29,7 @@ is no service level agreement during the alpha.
   for the person or organization they were given to.
 - Keep your password, API keys and access keys confidential. You are
   responsible for everything done with your account and keys, and must tell
-  us promptly at admin@agntspark.com if you believe they have been
+  us promptly at info@agntsparkllc.com if you believe they have been
   compromised.
 - Information you give us must be accurate and kept up to date.
 
@@ -92,7 +92,7 @@ these Terms.
 ## 6. Suspension and termination
 
 - You may stop using the Service and delete your Agents at any time. To
-  delete your account, email admin@agntspark.com from the address on the
+  delete your account, email info@agntsparkllc.com from the address on the
   account.
 - We may suspend or restrict an Agent or account immediately if we
   reasonably believe it breaches these Terms or the Acceptable Use Policy,
@@ -116,7 +116,7 @@ to special regulation, such as protected health information under HIPAA,
 payment card data under PCI DSS, or personal data of children.
 
 If your Agents process personal data on your behalf and you need a data
-processing agreement, contact us at admin@agntspark.com.
+processing agreement, contact us at info@agntsparkllc.com.
 
 ## 8. Third-party services
 
@@ -186,4 +186,4 @@ delays caused by events beyond its reasonable control.
 
 AgntSpark LLC
 30 N Gould St Ste N, Sheridan, WY 82801, USA
-admin@agntspark.com
+info@agntsparkllc.com

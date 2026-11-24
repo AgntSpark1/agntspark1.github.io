@@ -27,7 +27,7 @@ TEMPLATE = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} — AgntSpark</title>
 <meta name="description" content="{title} for AgntSpark, operated by AgntSpark LLC.">
-<link rel="canonical" href="https://agntspark.com/{slug}/">
+<link rel="canonical" href="https://agntsparkllc.com/{slug}/">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -84,7 +84,7 @@ footer a:hover {{ color:var(--ink); }}
 </main>
 <footer>
   <div class="wrap">
-    <span>© 2026 AgntSpark LLC · 30 N Gould St Ste N, Sheridan, WY 82801, USA · admin@agntspark.com</span>
+    <span>© 2026 AgntSpark LLC · 30 N Gould St Ste N, Sheridan, WY 82801, USA · info@agntsparkllc.com</span>
     <span><a href="/">Home</a><a href="/terms/">Terms</a><a href="/privacy/">Privacy</a><a href="/acceptable-use/">Acceptable use</a></span>
   </div>
 </footer>
@@ -96,7 +96,7 @@ footer a:hover {{ color:var(--ink); }}
 
 def link_emails(rendered: str) -> str:
     return re.sub(
-        r"(?<![\w@/.:-])(admin@agntspark\.com)(?![\w.-]*</a>)",
+        r"(?<![\w@/.:-])(info@agntsparkllc\.com)(?![\w.-]*</a>)",
         r'<a href="mailto:\1">\1</a>',
         rendered,
     )

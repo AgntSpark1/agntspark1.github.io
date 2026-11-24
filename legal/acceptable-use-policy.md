@@ -4,7 +4,7 @@
 
 This policy lists what you, your Agents, and anyone using your Agents may
 not do on AgntSpark. It is part of the [Terms of Service](/terms/). If you're
-unsure whether something is allowed, ask us at admin@agntspark.com first.
+unsure whether something is allowed, ask us at info@agntsparkllc.com first.
 
 ## You may not use the Service to:
 
@@ -56,7 +56,7 @@ unsure whether something is allowed, ask us at admin@agntspark.com first.
 
 ## Security research
 
-Found a vulnerability in AgntSpark? Report it to admin@agntspark.com. Don't
+Found a vulnerability in AgntSpark? Report it to info@agntsparkllc.com. Don't
 access other customers' data, degrade the Service, or publicly disclose the
 issue before we've had a reasonable chance to fix it. We won't pursue legal
 action against research carried out in good faith within these rules.
@@ -70,5 +70,5 @@ needed to protect people or the Service, we may act without notice.
 
 ## Reporting abuse
 
-Report an Agent or account that breaks this policy to admin@agntspark.com,
+Report an Agent or account that breaks this policy to info@agntsparkllc.com,
 including the agent URL and what you observed.
